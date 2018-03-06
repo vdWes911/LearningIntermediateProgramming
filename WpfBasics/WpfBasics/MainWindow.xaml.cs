@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace FirstPracticeProgram
+namespace WpfBasics
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -24,14 +23,6 @@ namespace FirstPracticeProgram
         public MainWindow()
         {
             InitializeComponent();
-
         }
-
-        private void LeagueOfLegendsButton(object sender, RoutedEventArgs e)
-        {
-            Process.Start(@"C:\Games\League of Legends\lol.launcher.exe");
-        }
-
-
     }
 }
