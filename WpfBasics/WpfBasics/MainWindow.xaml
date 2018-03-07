@@ -33,16 +33,15 @@
                     </Grid.ColumnDefinitions>
 
                     <TextBlock Grid.Column="0" Text="Student" FontSize="13" Margin="10 0 0 0"></TextBlock>
-                    <RadioButton Grid.Column="1" Padding="4 4 4 4" Margin="0 0 0 0" HorizontalAlignment="Center" Width="15" ></RadioButton>
+                    <RadioButton Grid.Column="1" Padding="4 4 4 4" Margin="0 0 10 0" HorizontalAlignment="Center" Width="15" ></RadioButton>
                 </Grid>
-                <Grid Margin="5 0 10 5">
+                <Grid Margin="5 0 16 0">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="4*"/>
-                        <ColumnDefinition Width="18*"/>
-                        <ColumnDefinition Width="11*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
 
-                    <TextBlock Grid.Column="0" Text="Student" FontSize="13" Margin="10 0 0 0" Grid.ColumnSpan="2"></TextBlock>
+                    <TextBlock Grid.Column="0" Text="Student" FontSize="13" Margin="10 0 10 0" Grid.ColumnSpan="2"></TextBlock>
                     <RadioButton Grid.Column="2" Padding="4 4 4 4" Margin="0,0,0,0" HorizontalAlignment="Center" Width="14" ></RadioButton>
                 </Grid>
             </StackPanel>
